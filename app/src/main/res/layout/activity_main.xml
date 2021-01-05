@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#F8F3F3"
+        android:layout_margin="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/milkCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+
+        <CheckBox
+            android:id="@+id/sugarCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/sugar_text"
+            android:textAllCaps="false"
+            android:textColor="#F8F3F3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/waterCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/water_text"
+            android:textAllCaps="false"
+            android:textColor="#F8F3F3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <CheckBox
+            android:id="@+id/saltCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salt_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/riceCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rice_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+        <CheckBox
+            android:id="@+id/teaCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tea_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+
+        <CheckBox
+            android:id="@+id/fruitsCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruits_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+
+        <CheckBox
+            android:id="@+id/oilCheckBoxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oil_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="#F8F3F3"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/showButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+
+        />
+
+    <TextView
+        android:id="@+id/resultTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F8F3F3"
+        android:layout_margin="10dp"
+        />
+
+     <TextView
+         android:id="@+id/bottomTextViewId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:textAllCaps="false"
+         android:textColor="#F8F3F3"
+
+         />
+
+</LinearLayout>
